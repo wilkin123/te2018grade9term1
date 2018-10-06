@@ -1,5 +1,24 @@
-// Example
+
 let message = "Hello World!";
 console.log(message);
-
-// Type your code below!
+let x = 1;
+console.log(x); 
+let y = 2;
+console.log(y);
+let z = 3;
+console.log(z);
+let a = "letter a";
+console.log(a);
+let b = "letter b";
+console.log(b);
+let c = "letter c";
+console.log(c);
+likesFortnite= true;
+console.log(likesFortnite); 
+likesSoccer= true;
+console.log(likesSoccer);
+likesBaseball= false;
+console.log(likesBaseball);
+const READLINE=require("readline-sync");
+let userInput = READLINE.question("Wilkin!");
+console.log('Wilkin!:${userInput}');
