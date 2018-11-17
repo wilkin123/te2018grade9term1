@@ -7,7 +7,12 @@ const READLINE = require("readline-sync");
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
-
+if(age>= 18 || withAdult == "yes")	{
+	console.log("Congrats, you can see the movie!");
+}
+else {
+	console.log("Sorry, you cannot see the movie.");
+}
 
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
@@ -17,6 +22,12 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+if(raining == "yes" && thunderstorming == "no")	{
+	console.log("Make sure to bring an umbrella!")
+}
+else {
+	console.log("Don't bring an umbrella!")
+}
 
 
 // **** Problem 3: Monkey Trouble ****
@@ -26,7 +37,12 @@ let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 console.log("*** Problem 3: Monkey Trouble ***");
 let bubbles = READLINE.question("Is Bubbles smiling? (yes or no): ");
 let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
-
+if(bubbles = "yes" && spankey = "yes"|| bubbles = "no" && spankey = "no") {
+	console.log("You're in trouble");
+}
+else {`
+	console.log("You're fine!");
+}
 
 // **** Problem 4: First Place ****
 // Write code that prints the largest of three scores. If there is a tie for
@@ -35,6 +51,9 @@ console.log("*** Problem 4: First Place ***");
 let score1 = READLINE.question("Enter the first score: ");
 let score2 = READLINE.question("Enter the second score: ");
 let score3 = READLINE.question("Enter the third score: ");
+if(score1 = score2 = )	
+
+
 
 
 // **** Problem 5: Phone Shopping ****
